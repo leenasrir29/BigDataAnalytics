@@ -24,17 +24,7 @@ The project's structure is laid out in a series of numbered steps, from initial 
 
 6.Analytical Operations on a CSV File: The workflow proceeds to perform analytical operations. This could include aggregations, filtering, sorting, and other calculations to derive insights from the CSV data.
 
-7.Banking Crises and Exports Dataset Analysis:The workflow applies aggregations, filtering, and sorting on tradevalue, tradeshare, and expgrowth.It examines crisis indicators (BANK, TWIN) to compare trade during crisis vs non-crisis years.These operations reveal how financial crises impact exports and growth trends across exporters and products.Workflow Flowchart
-graph TD
-    A[Start: BigDataAnalytics Project] --> B["1. DataTransformation Using PySpark RDD"];
-    B --> C["2. Collect() Operation with RDD Operation"];
-    C --> D["3. Sample() and TakeSample() Methods"];
-    D --> E["4. Exploring Structure And Contents of CSV File"];
-    E --> F["5. Viewing Data And Selecting Columns Of CSV File"];
-    F --> G["6. Analytical Operations on Banking Crises and Exports Dataset"];
-    G --> H["7. Banking Crises and Exports Dataset Analysis (Mini Project)"];
-    H --> I[End of Analysis];
-
+7.Banking Crises and Exports Dataset Analysis:The workflow applies aggregations, filtering, and sorting on tradevalue, tradeshare, and expgrowth.It examines crisis indicators (BANK, TWIN) to compare trade during crisis vs non-crisis years.These operations reveal how financial crises impact exports and growth trends across exporters and products
 
 
     
